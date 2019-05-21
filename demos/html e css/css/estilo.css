@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+p { 
+  text-indent: 15px; 
+}
+nav{
+  background-color: aquamarine;
+  padding: 10px 20px;
+  text-align: right;
+  font-size: 1.5em;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+section, aside, footer{
+  border: 1px solid #ccc;
+}
+
+main{
+  padding: 10px;
+}
+
+
+section, aside{
+  min-height: 510px;
+  display: inline-block;
+  margin-top: 55px;
+  vertical-align: top;
+}
+
+section{
+  width: 75%;
+  padding: 10px;
+}
+
+aside{
+  width: 22%;
+}
+
+footer{
+  height: 150px;
+  background-color: #eee;
+}
