@@ -30,7 +30,12 @@ nav ul{
 nav ul li{
   list-style: none;
   display: inline-block;
-  margin-right: 30px;
+  padding: 0 15px;
+  border-left: 1px solid #000;
+}
+
+nav ul li:first-child{
+  border: none;
 }
 
 section, aside, footer{
