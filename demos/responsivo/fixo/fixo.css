@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div{
+  padding: 5px;
+}
+
+.topo{
+  height: 60px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
+
+.esquerda{
+  width: 520px;
+  background: #ccc;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.meio{
+  width: 200px;
+  background: #ccc;
+  height: 400px;
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.direita{
+  width: 200px;
+  background: #ccc;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+  
