@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+
+div{
+  background: #ccc;
+}
+
+.topo{
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.esquerda{
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.meio{
+  width: 20%;
+  margin: 0 5%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.direita{
+  width: 20%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
